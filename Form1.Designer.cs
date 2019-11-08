@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.textBox_result = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -318,21 +319,21 @@
             // оформлениеToolStripMenuItem
             // 
             this.оформлениеToolStripMenuItem.Name = "оформлениеToolStripMenuItem";
-            this.оформлениеToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.оформлениеToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
             this.оформлениеToolStripMenuItem.Text = "Оформление";
             this.оформлениеToolStripMenuItem.Click += new System.EventHandler(this.оформлениеToolStripMenuItem_Click);
             // 
             // сброситьToolStripMenuItem
             // 
             this.сброситьToolStripMenuItem.Name = "сброситьToolStripMenuItem";
-            this.сброситьToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.сброситьToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
             this.сброситьToolStripMenuItem.Text = "Сбросить ";
             this.сброситьToolStripMenuItem.Click += new System.EventHandler(this.сброситьToolStripMenuItem_Click);
             // 
             // информацияToolStripMenuItem
             // 
             this.информацияToolStripMenuItem.Name = "информацияToolStripMenuItem";
-            this.информацияToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.информацияToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
             this.информацияToolStripMenuItem.Text = "Информация";
             this.информацияToolStripMenuItem.Click += new System.EventHandler(this.информацияToolStripMenuItem_Click);
             // 
@@ -357,6 +358,7 @@
             this.Controls.Add(this.textBox_result);
             this.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.MinimizeBox = false;
             this.Name = "Form1";
